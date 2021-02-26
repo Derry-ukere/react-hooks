@@ -7,11 +7,10 @@ export default class CounterOneClass extends Component {
       count: 0,
     }
   }
-  handleClick = () => {
+  handleClick = () =>
     this.setState({
       count: this.state.count + 1,
     })
-  }
 
   componentDidUpdate() {
     //on update

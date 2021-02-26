@@ -3,7 +3,7 @@ import React from 'react'
 // import FunctionalComponent from '../src/usetateHook/classComponent'
 // import FunctionalComponent from '../src/usetateHook/counterThree'
 // import FunctionalComponent from '../src/usetateHook/CounterFour'
-import FunctionalComponent from './useEffect/CounterOneClass'
+import FunctionalComponent from './useEffect/CounterTwo'
 
 const App = () => {
   return (

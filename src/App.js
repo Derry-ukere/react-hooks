@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Component from './useEffect/FuncMouse'
+import Component from './useEffect/FuncMouseContainer'
 
 const App = () => {
   return (

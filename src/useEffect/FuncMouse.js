@@ -8,9 +8,13 @@ const FuncMouse = () => {
     setX(e.clientX)
     setY(e.clientY)
   }
+
+  const useEffCleanUp = () =>
+    window.removeEventListener('mousemove', eventListenerFunc)
   const useEffectFunc = () => {
     console.log('useEffect calld!!')
     window.addEventListener('mousemove', eventListenerFunc)
+    return useEffCleanUp
   }
   useEffect(useEffectFunc, [])
   return (

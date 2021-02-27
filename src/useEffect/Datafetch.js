@@ -8,7 +8,7 @@ const Datafetch = () => {
 
   const url = `https://jsonplaceholder.typicode.com/posts/${idFromButton}`
 
-  const mapFunc = (obj, index) => <li key={index}> {obj.title}</li>
+  //   const mapFunc = (obj, index) => <li key={index}> {obj.title}</li>
   const handleIdChange = (e) => setId(e.target.value)
   const handeClick = () => seIdFromButton(id)
   const getResponse = (res) => setPost(res.data)

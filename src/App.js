@@ -1,10 +1,15 @@
 import React from 'react'
 
-import Component from './useEffect/FuncMouseContainer'
+import Component from './useEffect/Datafetch'
 
 const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        marginLeft: '200px',
+        marginTop: 'auto',
+      }}
+    >
       <Component />
     </div>
   )

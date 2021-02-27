@@ -1,6 +1,7 @@
 import React from 'react'
-
-import Component from './useEffect/Datafetch'
+import Component from './useContext/ComponentC'
+export const UserContext = React.createContext()
+export const MailContext = React.createContext()
 
 const App = () => {
   return (
@@ -10,9 +11,12 @@ const App = () => {
         marginTop: 'auto',
       }}
     >
-      <Component />
+      <UserContext.Provider value='Derry'>
+        <MailContext.Provider value='ukderry@gmail.com'>
+          <Component />
+        </MailContext.Provider>
+      </UserContext.Provider>
     </div>
   )
 }
-
 export default App

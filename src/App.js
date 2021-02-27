@@ -1,5 +1,5 @@
 import React from 'react'
-import Component from './useReducers/Reduce.js'
+import Component from './useReducers/ReduceTwo'
 
 const App = () => {
   return (

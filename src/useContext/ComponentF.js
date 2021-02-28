@@ -1,13 +1,7 @@
-import React, { useContext } from 'react'
-import { UserContext, MailContext } from '../App'
+import React from 'react'
+
 const ComponentF = () => {
-  const user = useContext(UserContext)
-  const email = useContext(MailContext)
-  return (
-    <div>
-      this is my {email} nd {user}
-    </div>
-  )
+  return <div>component F</div>
 }
 
 export default ComponentF

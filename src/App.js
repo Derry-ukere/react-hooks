@@ -1,7 +1,6 @@
 import React, { createContext, useReducer } from 'react'
 
-import Component from './useCallback/ParentComponent'
-
+import Component from './useMemo/counter'
 const App = () => {
   return (
     <div

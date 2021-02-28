@@ -1,6 +1,6 @@
 import React, { createContext, useReducer } from 'react'
 
-import Component from './useMemo/counter'
+import Component from './useref/TimerHook'
 const App = () => {
   return (
     <div

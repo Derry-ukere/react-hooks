@@ -24,7 +24,7 @@ const reducer = (state, action) => {
       }
 
     default:
-      return initialState
+      return state
   }
 }
 

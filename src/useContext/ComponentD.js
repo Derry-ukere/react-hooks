@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { CountContext } from '../App'
 
-const ComponentF = () => {
+const ComponentD = () => {
   const countText = useContext(CountContext)
   const increase = () => countText.dispatch('increment')
   const decrease = () => countText.dispatch('decrement')
@@ -9,7 +9,7 @@ const ComponentF = () => {
 
   return (
     <div>
-      ComponentF
+      ComponentD
       <button onClick={increase}>Increment</button>
       <button onClick={decrease}>decrement</button>
       <button onClick={reset}>reset</button>
@@ -17,4 +17,4 @@ const ComponentF = () => {
   )
 }
 
-export default ComponentF
+export default ComponentD

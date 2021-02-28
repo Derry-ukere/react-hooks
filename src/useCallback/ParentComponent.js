@@ -10,6 +10,7 @@ const ParentComponent = () => {
   const incrementAge = useCallback(() => {
     setAge(age + 1)
   }, [age])
+
   const incrementSalary = useCallback(() => {
     setSalary(salary + 1000)
   }, [salary])
